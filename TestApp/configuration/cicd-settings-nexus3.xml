@@ -6,6 +6,16 @@
             <username>deployment</username>
             <password>deployment123</password>
         </server>
+        <server>
+            <id>rhpoc-releases</id>
+            <username>deployment</username>
+            <password>deployment123</password>
+        </server>
+        <server>
+            <id>rhpoc-snapshots</id>
+            <username>deployment</username>
+            <password>deployment123</password>
+        </server>
     </servers>
     <mirrors>
         <mirror>
