@@ -33,7 +33,7 @@
         </repository>
         <snapshotRepository>
             <id>rhpoc-snapshots</id>
-            <url>http://nexus-cicdpoc.apps.cloud.igalvan.com/repository/rhpoc-snapshots</url>
+            <url>http://nexus:8081/repository/rhpoc-snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 
