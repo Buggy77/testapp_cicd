@@ -22,14 +22,14 @@
 	 <repositories>
         <repository>
             <id>rhpoc-central</id>
-            <url>http://nexus-cicdpoc.apps.cloud.igalvan.com/repository/rhpoc-central/</url>
+            <url>http://nexus:8081/repository/rhpoc-central/</url>
         </repository>
     </repositories>
 
     <distributionManagement>
         <repository>
             <id>rhpoc-releases</id>
-            <url>http://nexus-cicdpoc.apps.cloud.igalvan.com/repository/rhpoc-releases</url>
+            <url>http://nexus:8081/repository/rhpoc-releases</url>
         </repository>
         <snapshotRepository>
             <id>rhpoc-snapshots</id>
