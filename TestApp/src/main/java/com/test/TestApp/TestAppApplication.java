@@ -14,6 +14,8 @@ public class TestAppApplication {
 	public static void main(String[] args) {
 		Integer valor = new TestAppApplication().metodoTest();
 		System.out.print(valor);
+		valor = new TestAppApplication().metodoTest(1);
+		System.out.print(valor);
 		SpringApplication.run(TestAppApplication.class, args);
 	}
 	
@@ -31,6 +33,18 @@ public class TestAppApplication {
 	public Integer metodoTest() {
 		
 		Integer valor = 0;
+		
+		if (valor.compareTo(0) == 0) {
+			valor = 1 + 1;
+		} else if (valor.compareTo(1) > 0) {
+			valor = 1 +2;
+		} 
+		return valor;
+	}
+	
+public Integer metodoTest(int dato) {
+		
+		Integer valor = dato;
 		
 		if (valor.compareTo(0) == 0) {
 			valor = 1 + 1;
